@@ -1,0 +1,5 @@
+Model,Test Accuracy,Test F1-Macro,Architecture / Type
+Random Forest (Champion),75.25%,0.7608,Ensemble 300 Trees
+Multiclass Deep ANN (MLP),74.10%,0.7469,"Dense(128-64-32, ReLU)"
+HistGradientBoosting,74.62%,0.7538,Boosting Histogram
+SVM (RBF Kernel),74.56%,0.7541,Kernel Support Vector Machine
