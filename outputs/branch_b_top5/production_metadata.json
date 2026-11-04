@@ -1,0 +1,16 @@
+{
+    "model_architecture": "HistGradientBoosting",
+    "features": [
+        "CO",
+        "Force",
+        "Consumption L/H",
+        "Power",
+        "HC"
+    ],
+    "target": "Fault",
+    "test_metrics": {
+        "accuracy": 0.7462,
+        "f1_macro": 0.7538
+    },
+    "status": "Ready for deployment / Streamlit"
+}

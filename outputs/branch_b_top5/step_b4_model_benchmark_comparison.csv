@@ -1,0 +1,6 @@
+Model,CV_F1_Macro_Mean,CV_F1_Macro_Std,Val_Accuracy,Val_F1_Macro,Val_Precision_Macro,Val_Recall_Macro
+HistGradientBoosting,0.7578,0.002,0.7526,0.7592,0.7599,0.7599
+KNN,0.7599,0.0036,0.7449,0.7535,0.7535,0.7535
+RandomForest,0.7593,0.0028,0.7446,0.7534,0.7535,0.7535
+MLP_NeuralNet,0.7426,0.0187,0.7449,0.7507,0.7522,0.7521
+LogisticRegression,0.3278,0.0091,0.35,0.3268,0.3479,0.3363

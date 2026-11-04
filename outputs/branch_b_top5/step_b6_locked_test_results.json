@@ -1,0 +1,80 @@
+{
+    "model_name": "HistGradientBoosting",
+    "features_used": [
+        "CO",
+        "Force",
+        "Consumption L/H",
+        "Power",
+        "HC"
+    ],
+    "test_sample_count": 8400,
+    "test_accuracy": 0.7462,
+    "test_f1_macro": 0.7538,
+    "test_precision_macro": 0.7542,
+    "test_recall_macro": 0.754,
+    "confusion_matrix": [
+        [
+            2400,
+            0,
+            0,
+            0
+        ],
+        [
+            0,
+            1649,
+            1,
+            0
+        ],
+        [
+            0,
+            0,
+            1259,
+            991
+        ],
+        [
+            0,
+            0,
+            1140,
+            960
+        ]
+    ],
+    "classification_report": {
+        "0": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 2400.0
+        },
+        "1": {
+            "precision": 1.0,
+            "recall": 0.9993939393939394,
+            "f1-score": 0.9996968778417702,
+            "support": 1650.0
+        },
+        "2": {
+            "precision": 0.5245833333333333,
+            "recall": 0.5595555555555556,
+            "f1-score": 0.541505376344086,
+            "support": 2250.0
+        },
+        "3": {
+            "precision": 0.4920553562275756,
+            "recall": 0.45714285714285713,
+            "f1-score": 0.4739570476425574,
+            "support": 2100.0
+        },
+        "accuracy": 0.7461904761904762,
+        "macro avg": {
+            "precision": 0.7541596723902272,
+            "recall": 0.754023088023088,
+            "f1-score": 0.7537898254571034,
+            "support": 8400.0
+        },
+        "weighted avg": {
+            "precision": 0.7456700890568938,
+            "recall": 0.7461904761904762,
+            "f1-score": 0.7456186601502959,
+            "support": 8400.0
+        }
+    }
+}
