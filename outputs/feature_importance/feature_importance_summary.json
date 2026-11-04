@@ -1,0 +1,151 @@
+{
+    "top_5_critical_sensors": [
+        "CO",
+        "Force",
+        "Power",
+        "Consumption L/H",
+        "Consumption L/100KM"
+    ],
+    "full_rankings": {
+        "CO": {
+            "RandomForest_MDI": 0.1478,
+            "Permutation_F1_Drop": 0.0906,
+            "Permutation_Std": 0.0025,
+            "Mutual_Information": 0.6617,
+            "Rank_MDI": 1.0,
+            "Rank_Perm": 1.0,
+            "Rank_MI": 1.0,
+            "Consensus_Rank": 1.0
+        },
+        "Force": {
+            "RandomForest_MDI": 0.1097,
+            "Permutation_F1_Drop": 0.0315,
+            "Permutation_Std": 0.0016,
+            "Mutual_Information": 0.5698,
+            "Rank_MDI": 2.0,
+            "Rank_Perm": 2.0,
+            "Rank_MI": 3.0,
+            "Consensus_Rank": 2.33
+        },
+        "Power": {
+            "RandomForest_MDI": 0.0879,
+            "Permutation_F1_Drop": 0.0081,
+            "Permutation_Std": 0.0021,
+            "Mutual_Information": 0.6367,
+            "Rank_MDI": 4.0,
+            "Rank_Perm": 6.0,
+            "Rank_MI": 2.0,
+            "Consensus_Rank": 4.0
+        },
+        "Consumption L/H": {
+            "RandomForest_MDI": 0.0857,
+            "Permutation_F1_Drop": 0.0302,
+            "Permutation_Std": 0.002,
+            "Mutual_Information": 0.4465,
+            "Rank_MDI": 6.0,
+            "Rank_Perm": 3.0,
+            "Rank_MI": 4.0,
+            "Consensus_Rank": 4.33
+        },
+        "Consumption L/100KM": {
+            "RandomForest_MDI": 0.0933,
+            "Permutation_F1_Drop": 0.0192,
+            "Permutation_Std": 0.0028,
+            "Mutual_Information": 0.3683,
+            "Rank_MDI": 3.0,
+            "Rank_Perm": 5.0,
+            "Rank_MI": 9.0,
+            "Consensus_Rank": 5.67
+        },
+        "HC": {
+            "RandomForest_MDI": 0.0865,
+            "Permutation_F1_Drop": 0.0245,
+            "Permutation_Std": 0.0014,
+            "Mutual_Information": 0.3316,
+            "Rank_MDI": 5.0,
+            "Rank_Perm": 4.0,
+            "Rank_MI": 10.0,
+            "Consensus_Rank": 6.33
+        },
+        "Speed": {
+            "RandomForest_MDI": 0.0714,
+            "Permutation_F1_Drop": 0.0025,
+            "Permutation_Std": 0.0008,
+            "Mutual_Information": 0.4048,
+            "Rank_MDI": 7.0,
+            "Rank_Perm": 8.0,
+            "Rank_MI": 6.0,
+            "Consensus_Rank": 7.0
+        },
+        "O2": {
+            "RandomForest_MDI": 0.0709,
+            "Permutation_F1_Drop": 0.0056,
+            "Permutation_Std": 0.0011,
+            "Mutual_Information": 0.4005,
+            "Rank_MDI": 8.0,
+            "Rank_Perm": 7.0,
+            "Rank_MI": 7.0,
+            "Consensus_Rank": 7.33
+        },
+        "RPM": {
+            "RandomForest_MDI": 0.0697,
+            "Permutation_F1_Drop": -0.0008,
+            "Permutation_Std": 0.0015,
+            "Mutual_Information": 0.3976,
+            "Rank_MDI": 9.0,
+            "Rank_Perm": 10.0,
+            "Rank_MI": 8.0,
+            "Consensus_Rank": 9.0
+        },
+        "TPS": {
+            "RandomForest_MDI": 0.0497,
+            "Permutation_F1_Drop": -0.0026,
+            "Permutation_Std": 0.0021,
+            "Mutual_Information": 0.444,
+            "Rank_MDI": 11.0,
+            "Rank_Perm": 13.0,
+            "Rank_MI": 5.0,
+            "Consensus_Rank": 9.67
+        },
+        "CO2": {
+            "RandomForest_MDI": 0.0558,
+            "Permutation_F1_Drop": -0.0007,
+            "Permutation_Std": 0.0023,
+            "Mutual_Information": 0.1881,
+            "Rank_MDI": 10.0,
+            "Rank_Perm": 9.0,
+            "Rank_MI": 12.0,
+            "Consensus_Rank": 10.33
+        },
+        "MAP": {
+            "RandomForest_MDI": 0.0348,
+            "Permutation_F1_Drop": -0.004,
+            "Permutation_Std": 0.0016,
+            "Mutual_Information": 0.2381,
+            "Rank_MDI": 12.0,
+            "Rank_Perm": 14.0,
+            "Rank_MI": 11.0,
+            "Consensus_Rank": 12.33
+        },
+        "AFR": {
+            "RandomForest_MDI": 0.019,
+            "Permutation_F1_Drop": -0.0019,
+            "Permutation_Std": 0.0007,
+            "Mutual_Information": 0.0978,
+            "Rank_MDI": 13.0,
+            "Rank_Perm": 12.0,
+            "Rank_MI": 13.0,
+            "Consensus_Rank": 12.67
+        },
+        "Lambda": {
+            "RandomForest_MDI": 0.0176,
+            "Permutation_F1_Drop": -0.0012,
+            "Permutation_Std": 0.001,
+            "Mutual_Information": 0.0977,
+            "Rank_MDI": 14.0,
+            "Rank_Perm": 11.0,
+            "Rank_MI": 14.0,
+            "Consensus_Rank": 13.0
+        }
+    }
+}
