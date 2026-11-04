@@ -1,0 +1,98 @@
+{
+    "dataset": "EngineFaultDB_Final.csv",
+    "features_used": [
+        "MAP",
+        "TPS",
+        "Force",
+        "Power",
+        "RPM",
+        "Consumption L/H",
+        "Consumption L/100KM",
+        "Speed",
+        "CO",
+        "HC",
+        "CO2",
+        "O2",
+        "Lambda",
+        "AFR"
+    ],
+    "n_features": 14,
+    "branch_a_unsupervised": {
+        "algorithm": "KMeans (K=4)",
+        "pca_variance_ratio_2d": [
+            0.4114,
+            0.2356
+        ]
+    },
+    "branch_b_supervised": {
+        "algorithm": "RandomForestClassifier",
+        "hyperparameters": {
+            "n_estimators": 300,
+            "max_depth": 22,
+            "min_samples_split": 5,
+            "min_samples_leaf": 2,
+            "max_features": "sqrt",
+            "random_state": 42,
+            "n_jobs": -1
+        },
+        "test_accuracy": 0.7502,
+        "test_f1_macro": 0.7587,
+        "test_precision_macro": 0.7587,
+        "test_recall_macro": 0.7587,
+        "classification_report": {
+            "Normal (0)": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1-score": 1.0,
+                "support": 2400.0
+            },
+            "Fault Type 1": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1-score": 1.0,
+                "support": 1650.0
+            },
+            "Fault Type 2": {
+                "precision": 0.5344514959202176,
+                "recall": 0.524,
+                "f1-score": 0.5291741472172352,
+                "support": 2250.0
+            },
+            "Fault Type 3": {
+                "precision": 0.5004664179104478,
+                "recall": 0.5109523809523809,
+                "f1-score": 0.5056550424128181,
+                "support": 2100.0
+            },
+            "accuracy": 0.7502380952380953,
+            "macro avg": {
+                "precision": 0.7587294784576664,
+                "recall": 0.7587380952380952,
+                "f1-score": 0.7587072974075133,
+                "support": 8400.0
+            },
+            "weighted avg": {
+                "precision": 0.7504161123133845,
+                "recall": 0.7502380952380953,
+                "f1-score": 0.7502996928935355,
+                "support": 8400.0
+            }
+        }
+    },
+    "all_feature_importances": {
+        "Lambda": 0.0196,
+        "AFR": 0.0258,
+        "MAP": 0.0387,
+        "TPS": 0.0503,
+        "CO2": 0.0641,
+        "RPM": 0.0656,
+        "Speed": 0.0694,
+        "O2": 0.0708,
+        "Consumption L/H": 0.0853,
+        "Consumption L/100KM": 0.0855,
+        "Power": 0.0877,
+        "HC": 0.0882,
+        "Force": 0.1139,
+        "CO": 0.1352
+    }
+}
