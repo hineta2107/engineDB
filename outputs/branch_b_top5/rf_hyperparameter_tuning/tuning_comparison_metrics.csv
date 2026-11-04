@@ -1,0 +1,3 @@
+Stage,Test Accuracy,Test F1-Macro,Test Precision,Test Recall
+"Baseline RF (N=100, Depth=12)",74.77%,0.7564,0.7566,0.7566
+Tuned Champion RF (Optimized),74.79%,0.7561,0.7562,0.7562

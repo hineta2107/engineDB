@@ -1,0 +1,84 @@
+{
+    "best_hyperparameters": {
+        "max_depth": 22,
+        "max_features": "sqrt",
+        "min_samples_leaf": 2,
+        "min_samples_split": 5,
+        "n_estimators": 300
+    },
+    "best_cross_val_f1": 0.7623,
+    "test_accuracy": 0.7479,
+    "test_f1_macro": 0.7561,
+    "feature_importances": {
+        "CO": 0.2501,
+        "Force": 0.229,
+        "Power": 0.1991,
+        "Consumption L/H": 0.1846,
+        "HC": 0.1372
+    },
+    "confusion_matrix": [
+        [
+            2400,
+            0,
+            0,
+            0
+        ],
+        [
+            0,
+            1650,
+            0,
+            0
+        ],
+        [
+            0,
+            0,
+            1205,
+            1045
+        ],
+        [
+            0,
+            0,
+            1073,
+            1027
+        ]
+    ],
+    "classification_report": {
+        "Normal (0)": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 2400.0
+        },
+        "Fault Type 1": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 1650.0
+        },
+        "Fault Type 2": {
+            "precision": 0.528972783143108,
+            "recall": 0.5355555555555556,
+            "f1-score": 0.532243816254417,
+            "support": 2250.0
+        },
+        "Fault Type 3": {
+            "precision": 0.49565637065637064,
+            "recall": 0.48904761904761906,
+            "f1-score": 0.49232981783317353,
+            "support": 2100.0
+        },
+        "accuracy": 0.7478571428571429,
+        "macro avg": {
+            "precision": 0.7561572884498697,
+            "recall": 0.7561507936507937,
+            "f1-score": 0.7561434085218977,
+            "support": 8400.0
+        },
+        "weighted avg": {
+            "precision": 0.7477460881488538,
+            "recall": 0.7478571428571429,
+            "f1-score": 0.7477906195264409,
+            "support": 8400.0
+        }
+    }
+}
