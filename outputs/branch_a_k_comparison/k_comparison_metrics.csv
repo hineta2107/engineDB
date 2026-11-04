@@ -1,0 +1,4 @@
+Clusters_K,Silhouette_Score,Calinski_Harabasz,Davies_Bouldin,Stability_ARI,Interpretability_Description
+2,0.4711,5639.9,1.1436,1.0,Normal vs Abnormal
+3,0.4612,5101.6,0.7975,1.0,Normal vs Severe Fault 1 vs Mixed Faults 2&3
+4,0.373,5446.6,0.8834,0.5416,Normal vs Fault 1 vs Fault 2 vs Fault 3
