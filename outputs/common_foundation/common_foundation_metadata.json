@@ -1,0 +1,96 @@
+{
+    "raw_shape": [
+        55999,
+        15
+    ],
+    "columns": [
+        "Fault",
+        "MAP",
+        "TPS",
+        "Force",
+        "Power",
+        "RPM",
+        "Consumption L/H",
+        "Consumption L/100KM",
+        "Speed",
+        "CO",
+        "HC",
+        "CO2",
+        "O2",
+        "Lambda",
+        "AFR"
+    ],
+    "cleaning_stats": {
+        "initial_rows": 55999,
+        "duplicates_removed": 1,
+        "final_clean_rows": 55998
+    },
+    "quality_checks": {
+        "physical_constraint_violations": "None (All physically valid)",
+        "lambda_afr_consistency_correlation": 1.0,
+        "target_class_distribution": {
+            "0": 16000,
+            "2": 15000,
+            "3": 14000,
+            "1": 10998
+        },
+        "target_class_proportions_pct": {
+            "0": 28.57,
+            "2": 26.79,
+            "3": 25.0,
+            "1": 19.64
+        }
+    },
+    "high_correlation_pairs": [
+        {
+            "feature_1": "RPM",
+            "feature_2": "Speed",
+            "correlation": 0.9969
+        },
+        {
+            "feature_1": "Force",
+            "feature_2": "MAP",
+            "correlation": 0.8801
+        },
+        {
+            "feature_1": "Force",
+            "feature_2": "TPS",
+            "correlation": 0.8915
+        },
+        {
+            "feature_1": "MAP",
+            "feature_2": "TPS",
+            "correlation": 0.8842
+        },
+        {
+            "feature_1": "CO",
+            "feature_2": "CO2",
+            "correlation": -0.8685
+        },
+        {
+            "feature_1": "CO",
+            "feature_2": "Lambda",
+            "correlation": -0.8994
+        },
+        {
+            "feature_1": "CO",
+            "feature_2": "AFR",
+            "correlation": -0.8994
+        },
+        {
+            "feature_1": "CO2",
+            "feature_2": "Lambda",
+            "correlation": 0.8526
+        },
+        {
+            "feature_1": "CO2",
+            "feature_2": "AFR",
+            "correlation": 0.8526
+        },
+        {
+            "feature_1": "Lambda",
+            "feature_2": "AFR",
+            "correlation": 1.0
+        }
+    ]
+}

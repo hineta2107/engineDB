@@ -1,0 +1,16 @@
+{
+    "physical_constraint_violations": "None (All physically valid)",
+    "lambda_afr_consistency_correlation": 1.0,
+    "target_class_distribution": {
+        "0": 16000,
+        "2": 15000,
+        "3": 14000,
+        "1": 10998
+    },
+    "target_class_proportions_pct": {
+        "0": 28.57,
+        "2": 26.79,
+        "3": 25.0,
+        "1": 19.64
+    }
+}
