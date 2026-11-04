@@ -1,0 +1,6 @@
+Class,Baseline_Recall,Tuned_Recall,Recall_Change,Baseline_Precision,Tuned_Precision,Baseline_F1,Tuned_F1
+Normal (0),100.00%,100.00%,+0.00%,100.00%,100.00%,1.0000,1.0000
+Fault Type 1,99.94%,99.94%,+0.00%,100.00%,100.00%,0.9997,0.9997
+Fault Type 2,55.96%,73.07%,+17.11%,52.46%,52.57%,0.5415,0.6115
+Fault Type 3,45.71%,29.43%,-16.29%,49.21%,50.49%,0.4740,0.3718
+OVERALL (Macro Average),75.40%,75.61%,+0.21%,75.42%,75.77%,0.7538,0.7458
