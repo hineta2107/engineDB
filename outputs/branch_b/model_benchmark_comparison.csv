@@ -1,0 +1,5 @@
+model,cv_f1_macro_mean,cv_f1_macro_std,val_accuracy,val_f1_macro,val_precision_macro,val_recall_macro
+KNN,0.7582,0.0032,0.7512,0.7595,0.7595,0.7595
+RandomForest,0.7535,0.0034,0.7486,0.7572,0.7575,0.7575
+HistGradientBoosting,0.7576,0.0019,0.7444,0.7528,0.7528,0.7529
+LogisticRegression,0.5861,0.0027,0.592,0.5913,0.5921,0.5911

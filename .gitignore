@@ -1,0 +1,14 @@
+# Virtual environment & Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+
+# Model & Scaler Artifacts
+outputs/branch_a/*.joblib
+outputs/branch_b/*.joblib
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
