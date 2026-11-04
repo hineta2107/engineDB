@@ -1,0 +1,5 @@
+Architecture,Test_Accuracy,Test_F1_Macro,Test_Precision,Test_Recall,Fault0_Accuracy,Fault1_Accuracy,Fault2_Accuracy,Fault3_Accuracy
+Stacking_3_TreeMeta_ExtraTrees,74.88%,0.7568,0.7569,0.7569,100.0%,100.0%,54.8%,48.0%
+Stacking_1_LinearMeta,74.76%,0.7542,0.7551,0.755,100.0%,100.0%,58.5%,43.5%
+Stacking_4_FeaturePassthrough,74.60%,0.7532,0.7537,0.7537,100.0%,100.0%,56.7%,44.8%
+Stacking_2_MultiLearner_MLP,75.15%,0.73,0.7578,0.7547,100.0%,100.0%,82.6%,19.3%
