@@ -6,9 +6,9 @@ __pycache__/
 env/
 venv/
 
-# Model & Scaler Artifacts
-outputs/branch_a/*.joblib
-outputs/branch_b/*.joblib
+# Ignore all joblib binary model artifacts across all outputs folders
+*.joblib
+outputs/**/*.joblib
 
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints/

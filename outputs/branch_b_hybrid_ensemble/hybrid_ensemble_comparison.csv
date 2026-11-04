@@ -1,0 +1,5 @@
+Architecture,Test_Accuracy,Test_F1_Macro,Test_Precision,Test_Recall,Fault0_Accuracy,Fault1_Accuracy,Fault2_Accuracy,Fault3_Accuracy
+Sequential_Boosting_Alone,75.11%,0.7583,0.7587,0.7587,100.0%,100.0%,57.2%,46.3%
+Parallel_RF_Alone,75.02%,0.7587,0.7587,0.7587,100.0%,100.0%,52.4%,51.1%
+Hybrid_Soft_Voting,74.80%,0.7563,0.7563,0.7564,100.0%,100.0%,52.6%,50.0%
+Hybrid_Stacking_Meta,74.80%,0.7541,0.7553,0.7552,100.0%,100.0%,59.3%,42.8%
