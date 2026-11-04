@@ -1,0 +1,79 @@
+{
+    "model": "SVM_RBF",
+    "features": [
+        "CO",
+        "Force",
+        "Consumption L/H",
+        "Power",
+        "HC"
+    ],
+    "test_accuracy": 0.7456,
+    "test_f1_macro": 0.7541,
+    "test_precision_macro": 0.7541,
+    "test_recall_macro": 0.7541,
+    "confusion_matrix": [
+        [
+            2400,
+            0,
+            0,
+            0
+        ],
+        [
+            0,
+            1650,
+            0,
+            0
+        ],
+        [
+            0,
+            0,
+            1184,
+            1066
+        ],
+        [
+            0,
+            0,
+            1071,
+            1029
+        ]
+    ],
+    "classification_report": {
+        "Normal (0)": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 2400.0
+        },
+        "Fault Type 1": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 1650.0
+        },
+        "Fault Type 2": {
+            "precision": 0.5250554323725055,
+            "recall": 0.5262222222222223,
+            "f1-score": 0.525638179800222,
+            "support": 2250.0
+        },
+        "Fault Type 3": {
+            "precision": 0.4911694510739857,
+            "recall": 0.49,
+            "f1-score": 0.4905840286054827,
+            "support": 2100.0
+        },
+        "accuracy": 0.7455952380952381,
+        "macro avg": {
+            "precision": 0.7540562208616228,
+            "recall": 0.7540555555555555,
+            "f1-score": 0.7540555521014262,
+            "support": 8400.0
+        },
+        "weighted avg": {
+            "precision": 0.7455750678682747,
+            "recall": 0.7455952380952381,
+            "f1-score": 0.7455848053121444,
+            "support": 8400.0
+        }
+    }
+}

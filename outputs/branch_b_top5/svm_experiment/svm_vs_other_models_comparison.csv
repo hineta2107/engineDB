@@ -1,0 +1,5 @@
+Model,Test Accuracy,Test F1-Macro,Test Recall
+HistGradientBoosting,74.62%,0.7538,75.40%
+RandomForest,75.48%,0.7632,76.35%
+KNN (k=5),74.49%,0.7535,75.35%
+SVM (RBF Kernel),74.56%,0.7541,75.41%
