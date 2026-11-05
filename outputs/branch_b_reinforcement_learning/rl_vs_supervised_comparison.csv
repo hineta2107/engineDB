@@ -1,0 +1,3 @@
+Method / Paradigm,Accuracy,Macro_F1,Learning_Type
+Supervised (Random Forest),75.25%,0.7608,Label-guided minimization of Gini/Entropy
+Reinforcement Learning (Q-Learning),73.55%,0.7377,Cost-sensitive Reward Maximization (Penalty on fatal errors)
